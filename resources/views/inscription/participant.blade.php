@@ -167,7 +167,7 @@
 
                                             <div class="col-lg-6 col-md-6">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" name="forumdiscussion" type="checkbox" value=1" id="forumdiscussion">
+                                                    <input class="form-check-input" name="forumdiscussion" type="checkbox" value="1" id="forumdiscussion">
                                                     <label class="form-check-label" for="forumdiscussion">
                                                         Forum de discussion
                                                     </label>
