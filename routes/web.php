@@ -26,8 +26,8 @@ Route::get('/', function () {
     dd($request->all());
 })->name('generate.badge');*/
 
-Route::get('/inscription/participant', [InscriptionController::class, 'participant'])->name('inscription.participant');
-Route::get('/inscription/entreprise', [InscriptionController::class, 'entreprise'])->name('inscription.entreprise');
+Route::get('/participant', [InscriptionController::class, 'participant'])->name('inscription.participant');
+Route::get('/entreprise', [InscriptionController::class, 'entreprise'])->name('inscription.entreprise');
 Route::post('/generate/badge', [InscriptionController::class, 'storeParticipant'])->name('generate.badge');
 Route::post('/generate/badge/entreprise', [InscriptionController::class, 'storeEntreprise'])->name('generate.badge.entreprise');
 Route::get('/success/page', [InscriptionController::class, 'success'])->name('generate.success.badge');
