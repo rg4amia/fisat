@@ -216,7 +216,7 @@
     <tr>
         <td>
             <p style="text-align:center">
-                <span style="font-family: 'Bookman Old Style'; font-size:25.0pt;font-weight: bold; color: #db863d;">BADGE DE PARTICIPANT AU FORUM</span>
+                <span style="font-family: 'Bookman Old Style'; font-size:25.0pt;font-weight: bold; color: #db863d;">BADGE ENTREPRISE AU FORUM</span>
             </p>
         </td>
     </tr>
@@ -225,7 +225,7 @@
 
 <br>
 
-<table style="margin: 7%;">
+<table>
     <tbody>
 
         <tr>
@@ -233,7 +233,7 @@
                 <span class="c1">NOM ENTREPRISE :</span>
             </td>
             <td class="c2" rowspan="1">
-                <span class="c1">{{ $entreprise->nom }}</span>
+                <span class="c1">{{ $entreprise->nom_entreprise }}</span>
             </td>
         </tr>
 
@@ -242,7 +242,7 @@
                 <span class="c1">RESPONSABLE :</span>
             </td>
             <td class="c2" rowspan="1">
-                <span class="c1">{{ $entreprise->prenom }}</span>
+                <span class="c1">{{ $entreprise->nom_responsable }}</span>
             </td>
         </tr>
 
@@ -251,16 +251,7 @@
                 <span class="c1">ACTIVITE :</span>
             </td>
             <td class="c2" rowspan="1">
-                <span class="c1">{{ $entreprise->fonction }}</span>
-            </td>
-        </tr>
-
-        <tr class="c7">
-            <td class="c2" rowspan="1">
-                <span class="c1">PAYS :</span>
-            </td>
-            <td class="c2" rowspan="1">
-                <span class="c1"></span>
+                <span class="c1">{{ $entreprise->secteuractivite->libelle }}</span>
             </td>
         </tr>
 
@@ -276,18 +267,16 @@
     </tbody>
 </table>
 
-<div>
-    <p>
-        <img alt="" src="{{ public_path('assets/images/logo_afrika_transtour.png') }}" style="height: 50px" />
-    </p>
-    <p>
-        <img alt="" src="{{ public_path('assets/images/ministeredestransports.png') }}" style="height: 50px" />
-    </p>
-</div>
-
-<p style="margin-top:24px">
-    <img alt="" src="{{ public_path('assets/images/bar_colorer.png') }}" style="height: 15%" />
-</p>
+<br>
+<br>
+<br>
+<table>
+    <tbody>
+    <tr>
+        <td><img alt="" src="{{ public_path('assets/images/forum_partenaire.png') }}" style="height: 150px" /></td>
+    </tr>
+    </tbody>
+</table>
 
 </body>
 </html>

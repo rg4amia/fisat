@@ -139,12 +139,12 @@ class InscriptionController extends Controller
 
     public function emailbadgeEntreprise(Entreprise $entreprise, Request $request){
         $entreprise = session()->get('entreprise');
-        Mail::to($entreprise->email)->send(new SendMailBadgeEntreprise($entreprise));
+        Mail::to($entreprise->email_entreprise)->send(new SendMailBadgeEntreprise($entreprise));
 
         if (Mail::failures()) {
-             $request->session()->flash('warning', 'Sorry! Please try again latter');
+             $request->session()->flash('warning', 'Désolé ! Veuillez réessayer ce dernier');
         } else {
-             $request->session()->flash('success','Great! Successfully send in your mail');
+             $request->session()->flash('success','Super ! Envoi réussi du mail');
         }
 
         return back();

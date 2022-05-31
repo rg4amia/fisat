@@ -225,7 +225,7 @@
  <br>
  <br>
 
- <table style="margin: 7%; margin-bottom:20%">
+ <table>
   <tbody>
    <tr>
     <td class="c2">
@@ -269,27 +269,18 @@
    </tr>
   </tbody>
  </table>
-
+ <br>
  <table>
      <tbody>
      <tr>
-         <td>
-             <p>
-                 <img alt="" src="{{ public_path('assets/images/logo_afrika_transtour.png') }}" style="height: 150px" />
-             </p>
-         </td>
-         <td>
-             <p>
-                 <img alt="" src="{{ public_path('assets/images/ministeredestransports.png') }}" style="height: 150px" />
-             </p>
-         </td>
+         <td><img alt="" src="{{ public_path('assets/images/forum_partenaire.png') }}" style="height: 150px" /></td>
      </tr>
      </tbody>
  </table>
-
+{{--
   <p style="margin-top:24px">
       <img alt="" src="{{ public_path('assets/images/bar_colorer.png') }}" style="height: 20%" />
-  </p>
+  </p>--}}
 
 </body>
 </html>
