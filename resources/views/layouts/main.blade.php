@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,8 +9,9 @@
         la logistique et les infrastructures au cœur du processus de développement amorcé par les États africains
     </title>
     <base href="https://abidjan.net/livre">
-    <meta name="keywords" content="Abidjan.net Une Histoire d'Avenir, Une Histoire d'Avenir, Abidjan.net le livre, Livre Abidjan.net, Les digital entrepreneurs, Jil-Alexandre et Daniel, Préface de Tidjane THIAM">
-    <meta name="description" content="Abidjan.net, Une Histoire d'Avenir - Le livre qui retrace le parcours des digital entrepreneurs">
+    <meta name="keywords" content="Forum,International,Forum International et Salon Africain des transports,inscription">
+    <meta name="description" content=" Forum International et Salon Africain des transports &#8211; Repositionner le transport,
+        la logistique et les infrastructures au cœur du processus de développement amorcé par les États africains">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600,700" rel="stylesheet">
     <link rel="shortcut icon" href="https://fisatevent.com/wp-content/uploads/2022/04/Logo_FISAT.png" type="image/x-icon">
     <link rel="icon" href="https://fisatevent.com/wp-content/uploads/2022/04/Logo_FISAT.png" type="image/x-icon">
