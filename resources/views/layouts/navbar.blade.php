@@ -27,7 +27,7 @@
                 </li>
                 <li><a href="/livre/points-vente">Points de vente</a></li>
                 <li><a href="/livre#contact">Contacts</a></li>--}}
-                <li><a href="/livre/order" class="btn-success btn btn-rounded text-info">Commander </a></li>
+                <li><a href="" class="btn-success btn btn-rounded text-info">Retour au Site</a></li>
             </ul>
         </div>
     </div>
