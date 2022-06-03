@@ -44,7 +44,7 @@
 
                                             <div class="col-lg-6 col-md-6">
                                                 <div class="billing-info mb-25">
-                                                    <label>Numéros CNPS <span class="required" title="required">*</span></label>
+                                                    <label>Numéros CNPS</label>
                                                     <input type="text" name="numero_cnps" id="numero_cnps" class="form-control" onkeyup="checkField()">
                                                 </div>
                                             </div>
