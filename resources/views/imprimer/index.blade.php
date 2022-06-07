@@ -208,7 +208,6 @@
  </table>
 
   <br>
-  <br>
 
  <table>
   <tbody>
@@ -222,7 +221,6 @@
   </tbody>
  </table>
 
- <br>
  <br>
 
  <table>
